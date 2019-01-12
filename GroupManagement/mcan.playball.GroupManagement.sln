@@ -1,8 +1,12 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFFDD3D4-9A06-4E2E-B10A-1E234BD3846B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mcan.playball.GroupManagement.Web", "src\mcan.playball.GroupManagement.Web\mcan.playball.GroupManagement.Web.csproj", "{622C1493-C209-4D42-8FF0-96EF336ECBFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +18,22 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Debug|x64.ActiveCfg = Debug|x64
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Debug|x64.Build.0 = Debug|x64
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Debug|x86.ActiveCfg = Debug|x86
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Debug|x86.Build.0 = Debug|x86
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Release|x64.ActiveCfg = Release|x64
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Release|x64.Build.0 = Release|x64
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Release|x86.ActiveCfg = Release|x86
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{622C1493-C209-4D42-8FF0-96EF336ECBFF} = {DFFDD3D4-9A06-4E2E-B10A-1E234BD3846B}
 	EndGlobalSection
 EndGlobal
